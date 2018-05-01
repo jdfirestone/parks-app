@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>Keys Blue</title>
+
+	<link rel="stylesheet" href="../static/css/main.css">
+
+</head>
+<body>
+
+
+<div id="container">
+
+
+
+
+
+
+
+	<h1>Lake Clark</h1>
+
+
+	<p>You are headed off to Lake Clark National Park, located in Alaska. Founded on December 2, 1980, Lake Clark national park has 22,755 visitors a year. </p>
+
+
+	<p class=desc>The region around Lake Clark features four active volcanoes, including Mount Redoubt, as well as an abundance of rivers, glaciers, and waterfalls. Temperate rainforests, a tundra plateau, and three mountain ranges complete the landscape. </p>
+
+	<div id=map>
+	<script src="https://www.rome2rio.com/Scripts/Widget/dist/injector/injector.js"></script>
+	<div id="r2r-widget"></div>
+	<script>
+	R2RWidget.insert({"elementId":"r2r-widget","size":"leaderBoard","title":"","fromLabel":"I'm here","toLabel":"Take me to","searchLabel":"LET'S GO","fromOverride":false,"fromCanonical":"","fromText":"","toOverride":true,"autocompleteTo":"","baseUrl":"https://www.rome2rio.com","width":850,"height":90,"toCanonical":"Lake Clark","toText":"Lake Clark","style":"white"});
+	</script>
+</div>
+
+
+<div id=mobilemap>
+	<script src="https://www.rome2rio.com/Scripts/Widget/dist/injector/injector.js"></script>
+	<div id="r2r-widget2"></div>
+	<script>
+	R2RWidget.insert({"elementId":"r2r-widget2","size":"mrec","title":"","fromLabel":"I'm here","toLabel":"Take me to","searchLabel":"LET'S GO","fromOverride":false,"fromCanonical":"","fromText":"","toOverride":true,"autocompleteTo":"","baseUrl":"https://www.rome2rio.com","width":300,"height":250,"toCanonical":"Lake Clark","toText":"Lake Clark","style":"white"});
+	</script>
+</div>
+
+	<p><a href="../index.html">Check out another pair</a></p>
+
+
+
+
+</div>
+
+</body>
+</html>

@@ -1,0 +1,26 @@
+<title> Bearbottom Parks </title>
+
+{% extends 'base.html' %}
+
+{% block content %}
+<a href="/"><img class=logo src="static/images/logo.png" alt="logo" ></a>
+
+
+<h1>You have the gear, now where should you take it?</h1>
+
+<img class=cliff src="static/images/cliff.jpg" alt="Cliff View">
+
+
+<h2>Discover the perfect national park for your Bearbottoms.</h2>
+
+<p>Click on a pair and see where they'll take you.</p>
+
+  <ul>
+    {% for pair in pairs %}
+        <li><a href="park/{{ pair[0] }}">{{ pair[1] }}</a></li>
+    {% endfor %}
+  </ul>
+
+
+
+{% endblock %}
